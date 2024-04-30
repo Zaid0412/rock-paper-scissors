@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c4c3ca;
+  background-color: #1f2029;
+}
+
+#options-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 70px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.option-btn {
+  text-align: center;
+  border: none;
+  background-color: #ffeba7;
+  color: #102770;
+  box-shadow: 0 8px 24px 0 rgba(255, 235, 167, 0.2);
+  border-radius: 4px;
+  height: 44px;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.option-btn:active,
+.option-btn:focus {
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+.option-btn:hover {
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 300px;
+}
+
+.humanScore-container {
+  margin-left: 370px;
+}
+
+.compScore-container {
+  margin-right: 370px;
+}
+.score-text {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  color: #ffeba7;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.rps {
+  gap: 75px;
+  align-items: center;
+}
+
+.img1,
+.img2 {
+  margin-top: 40px;
+  width: 75px;
+  height: auto;
+}
+
+.win_lose-text {
+  align-self: center;
+  color: #ffeba7;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.reset-btn_container {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-btn {
+  margin-top: 150px;
+  /* margin-right: 40px; */
+  /* text-align: center; */
+  border: none;
+  align-self: flex-end;
+  background-color: #c71313;
+  color: white;
+  box-shadow: 0 8px 24px 0 #440505;
+  border-radius: 4px;
+  height: 44px;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
